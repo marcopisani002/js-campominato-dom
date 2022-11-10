@@ -4,7 +4,18 @@
   }
   
   .grid-cell {
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 2rem;
     aspect-ratio: 1/1;
+    color: white;
+  }
+  .grid-cell.active {
+    border: 5px solid #48015e;
+  }
+  
+  .grid-cell.active {
+    background-color: rgb(255, 187, 0);
+    background-image: url("");
+    color: black;
+    font-weight: bold;
   }
